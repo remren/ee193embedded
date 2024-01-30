@@ -49,7 +49,9 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "starved_thermal|116373000|52714000|81b7f381-2cd8-46dc-9e85-a051bccb8f82|135f3f07-538d-49bc-af97-85f42f56a881|F.Cu"
+      ],
       "meta": {
         "version": 2
       },
