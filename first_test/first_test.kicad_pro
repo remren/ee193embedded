@@ -49,9 +49,7 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        "starved_thermal|116373000|52714000|81b7f381-2cd8-46dc-9e85-a051bccb8f82|135f3f07-538d-49bc-af97-85f42f56a881|F.Cu"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -394,7 +392,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "hw2breakout.kicad_pro",
+    "filename": "first_test.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -471,7 +469,7 @@
   },
   "sheets": [
     [
-      "9f9a26a9-ae04-400f-b89b-831b78dd08ca",
+      "81fc3a72-4c55-4eac-ae21-5b0f288a8e3b",
       ""
     ]
   ],
