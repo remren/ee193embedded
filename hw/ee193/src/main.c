@@ -12,11 +12,16 @@
 #include "mqtt_client.h"
 #include "minimal_wifi.h"
 #include "thermistor.h"
+#include "esp_log.h"
 
 #define WIFI_SSID      "KaReMi"
 #define WIFI_PASS      "bingchillin"
 
 #define BROKER_URI "mqtt://en1-pi.eecs.tufts.edu"
+
+static const char* TAG = "main";
+
+// C:\Users\rren02\.platformio\packages\framework-espidf\examples\peripherals
 
 void app_main() {
 
@@ -63,8 +68,8 @@ void app_main() {
     float thermistor_kelvins;
     while(1){
         thermistor_kelvins = thermistor_delayed_read();
-        printf("temp in C: %f\t", thermistor_kelvins - 273.15);
-        printf("temp in F: %f\n", ((thermistor_kelvins - 273.15) * 9/5) + 32);
+        ESP_LOGI(TAG, "temp in C: %f, temp in F: %f\n", thermistor_kelvins - 273.15, ((thermistor_kelvins - 273.15) * 9/5) + 32);
+        vTaskDelay(1000 / portTICK_PERIOD_MS);
     }
 
 }
