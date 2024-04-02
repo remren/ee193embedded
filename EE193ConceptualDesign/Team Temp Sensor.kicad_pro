@@ -380,7 +380,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
-      "simulation_model_issue": "error",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -392,7 +392,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "hw2breakout.kicad_pro",
+    "filename": "Team Temp Sensor.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -457,6 +457,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
@@ -469,7 +477,7 @@
   },
   "sheets": [
     [
-      "9f9a26a9-ae04-400f-b89b-831b78dd08ca",
+      "df8c6216-e87c-481c-a3fe-ff92ddfeaada",
       ""
     ]
   ],
