@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_627331"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-04-22-13:45:01)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "BAS_52-02V_H6327")
+)
+
+
+(pinAssign "ECS_627331"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-04-22-13:45:01)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_627331")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "BAS_52-02V_H6327")
+)
+
+
+(part "BAS_52-02V_H6327"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-04-22-13:45:01)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "BAS_52-02V_H6327")
+    (pinAssignRef "ECS_627331")
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "D")
+    (property "description" "INFINEON - BAS 52-02V H6327 - RECTIFIER, SCHOTTKY, 0.5A, 45V, SC-79")
+    (property "Mouser_Part_Number" "726-BAS5202VH6327")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BAS-52-02V-H6327?qs=mzcOS1kGbgev7wbn%2FVEo9w%3D%3D")
+    (property "Manufacturer_Name" "Infineon")
+    (property "Manufacturer_Part_Number" "BAS 52-02V H6327")
+    (property "Datasheet_Link" "https://www.infineon.com/dgdl/Infineon-BAS52SERIES-DS-v01_01-en.pdf?fileId=db3a30432d9b3066012dbc006764413f")
+    (property "compAreaTopHeight" 0.59)
+)
+
+

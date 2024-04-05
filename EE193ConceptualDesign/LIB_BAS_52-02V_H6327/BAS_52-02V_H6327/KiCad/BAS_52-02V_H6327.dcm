@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BAS_52-02V_H6327
+D INFINEON - BAS 52-02V H6327 - RECTIFIER, SCHOTTKY, 0.5A, 45V, SC-79
+K
+F https://www.infineon.com/dgdl/Infineon-BAS52SERIES-DS-v01_01-en.pdf?fileId=db3a30432d9b3066012dbc006764413f
+$ENDCMP
+#
+#End Doc Library

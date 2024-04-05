@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'BAS_52_02V_H6327'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Infineon", "BAS 52-02V H6327" (!) = "", "SODFL1608X59N", "Small Outline Diode Flat Lead", "726-BAS5202VH6327", "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BAS-52-02V-H6327?qs=mzcOS1kGbgev7wbn%2FVEo9w%3D%3D", "INFINEON - BAS 52-02V H6327 - RECTIFIER, SCHOTTKY, 0.5A, 45V, SC-79", "https://www.infineon.com/dgdl/Infineon-BAS52SERIES-DS-v01_01-en.pdf?fileId=db3a30432d9b3066012dbc006764413f", "0.59 mm"
+END_PART
+
+END.

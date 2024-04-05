@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model BAS_52-02V_H6327
+#/627331/1366346/2.50/2/3/Schottky Diode
+DEF BAS_52-02V_H6327 D 0 30 Y Y 1 F N
+F0 "D" 500 350 50 H V L CNN
+F1 "BAS_52-02V_H6327" 500 250 50 H V L CNN
+F2 "SODFL1608X59N" 500 150 50 H I L CNN
+F3 "https://www.infineon.com/dgdl/Infineon-BAS52SERIES-DS-v01_01-en.pdf?fileId=db3a30432d9b3066012dbc006764413f" 500 50 50 H I L CNN
+F4 "INFINEON - BAS 52-02V H6327 - RECTIFIER, SCHOTTKY, 0.5A, 45V, SC-79" 500 -50 50 H I L CNN "Description"
+F5 "0.59" 500 -150 50 H I L CNN "Height"
+F6 "726-BAS5202VH6327" 500 -250 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BAS-52-02V-H6327?qs=mzcOS1kGbgev7wbn%2FVEo9w%3D%3D" 500 -350 50 H I L CNN "Mouser Price/Stock"
+F8 "Infineon" 500 -450 50 H I L CNN "Manufacturer_Name"
+F9 "BAS 52-02V H6327" 500 -550 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 100 0 100 R 50 50 0 0 P
+X ~ 2 700 0 100 L 50 50 0 0 P
+P 2 0 1 6 300 100 300 -100 N
+P 3 0 1 6 300 100 340 100 340 60 N
+P 3 0 1 6 300 -100 260 -100 260 -60 N
+P 2 0 1 6 200 0 300 0 N
+P 2 0 1 6 500 0 600 0 N
+P 4 0 1 10 300 0 500 100 500 -100 300 0 F
+ENDDRAW
+ENDDEF
+#
+#End Library

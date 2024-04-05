@@ -1,0 +1,16 @@
+.BAS_52-02V_H6327 :1 ;INFINEON - BAS 52-02V H6327 - RECTIFIER, SCHOTTKY, 0.5A, 45V, SC-79
+SODFL1608X59N
+*STM D
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN BAS_52-02V_H6327
+~!Mouser Part Number (726-BAS5202VH6327)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BAS-52-02V-H6327?qs=mzcOS1kGbgev7wbn%2FVEo9w%3D%3D)
+~!Manufacturer_Name (Infineon)
+~!Manufacturer_Part_Number (BAS 52-02V H6327)
+~!Link Datasheet (https://www.infineon.com/dgdl/Infineon-BAS52SERIES-DS-v01_01-en.pdf?fileId=db3a30432d9b3066012dbc006764413f)
+~!Height (0.59mm)
+~!3D_Model (BAS_52-02V_H6327)
+BAS_52-02V_H6327
+1.1!U 2.1!U 
